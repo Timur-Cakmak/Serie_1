@@ -28,6 +28,8 @@
         echo $tableOrder;
         echo '<br>';
     };
+    echo '<br>';
+    echo $tableExo3[0];
     /* Exemple pour for
     $tableExo3_Order = count($tableExo3);
     for($i = 0; $i < $tableExo3_Order; $i++) {
@@ -83,12 +85,12 @@
             echo $num." ans, Vous êtes mineur !!!";
         }
     };
-    echo est_il_majeur(21);
+    echo est_il_majeur(5);
     echo '<br>';
     function plus_grand(int $num1, int $num2) {
         return max($num1,$num2);
     };
-    echo "Le plus grand nombre est : ".plus_grand(10000,100);
+    echo "Le plus grand nombre est : ".plus_grand(50000,100);
     echo '<br>';
     function plus_petit(int $num1, int $num2) {
         return min($num1,$num2);
